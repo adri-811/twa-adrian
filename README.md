@@ -5,7 +5,13 @@ Lab assignment repository by Adrián Escudero for the Advanced Web Technologies 
 ## Authorship & Tool Disclosures
 
 ### Lab 01
-Generative AI was used as an assistive tool to structure and understand code for the final steps completed at home, in full compliance with course policy.
+Generative AI was used as an assistive tool to structure and understand code for the final steps completed at home.
+AI was used to correct bugs and code errors.
 
 ### Lab 02
-Integrated the instructor's reference solution (`twa-2627-solucoes`). Due to unforeseen technical issues requiring a fresh environment setup on a new laptop during class, the official solution was adopted—as suggested in the lecture slides—to maintain pace and avoid delaying Lab 03.
+Generative AI was used as an assistive tool to avoid creating by hand the data js file with all the information of everyflight.
+AI was used to correct bugs and code errors.
+
+### Lab 03
+AI was used to correct bugs and code errors.
+

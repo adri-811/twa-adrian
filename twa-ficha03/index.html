@@ -1,13 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>twa-ficha03</title>
+    <title>Flight catalog</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <h1>Flight radar</h1>
+      
+      <input type="text" id="search" placeholder="Buscar vuelo o etiqueta...">
+      
+      <select id="category">
+        <option value="">All categories</option>
+      </select>
+      
+      <button id="sort">Sort by price</button>
+    </header>
+
+    <ul id="list"></ul>
+    <section id="detail"></section>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
