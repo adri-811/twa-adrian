@@ -1,23 +1,66 @@
-// data.js — só dados · data only. A entidade: livros técnicos. · The entity: tech books.
 export const items = [
-  { id: 1, name: 'Clean Code', category: 'book', price: 32.5,
-    tags: ['dev', 'classic'], author: { name: 'Robert C. Martin', country: 'US' } },
-  { id: 2, name: 'Eloquent JavaScript', category: 'book', price: 29.9,
-    tags: ['javascript', 'free-online'], author: { name: 'Marijn Haverbeke', country: 'NL' } },
-  { id: 3, name: 'You Don\'t Know JS Yet', category: 'book', price: 24.0,
-    tags: ['javascript', 'free-online'], author: { name: 'Kyle Simpson', country: 'US' } },
-  { id: 4, name: 'Designing Data-Intensive Applications', category: 'book', price: 48.0,
-    tags: ['databases', 'architecture'], author: { name: 'Martin Kleppmann', country: 'UK' } },
-  { id: 5, name: 'Baba Is You', category: 'game', price: 14.99,
-    tags: ['puzzle', 'indie'], author: { name: 'Hempuli', country: 'FI' } },
-  { id: 6, name: 'Return of the Obra Dinn', category: 'game', price: 19.99,
-    tags: ['puzzle', 'indie', 'mystery'], author: { name: 'Lucas Pope', country: 'US' } },
-  { id: 7, name: 'Mechanical keyboard, 65%', category: 'tool', price: 89.0,
-    tags: ['hardware', 'keyboard'], author: { name: 'Keychron', country: 'HK' } },
-  { id: 8, name: 'USB-C hub, 7 ports', category: 'tool', price: 35.5,
-    tags: ['hardware'], author: { name: 'Anker', country: 'CN' } },
-  { id: 9, name: 'The Pragmatic Programmer', category: 'book', price: 39.9,
-    tags: ['dev', 'classic', 'career'], author: { name: 'Hunt & Thomas', country: 'US' } },
-  { id: 10, name: 'Outer Wilds', category: 'game', price: 24.99,
-    tags: ['exploration', 'indie', 'mystery'], author: { name: 'Mobius Digital', country: 'US' } },
-]
+  { 
+    id: 1, 
+    name: "Porto - Madrid", 
+    category: "iberian", 
+    price: 45.50, 
+    tags: ["low-cost", "direct", "carry-on"],
+    airline: { name: "Ryanair", country: "IE" } 
+  },
+  { 
+    id: 2, 
+    name: "Madrid - New York", 
+    category: "transatlantic", 
+    price: 450.00, 
+    tags: ["long-haul", "meals-included", "layover"],
+    airline: { name: "Iberia", country: "ES" } 
+  },
+  { 
+    id: 3, 
+    name: "Lisbon - London", 
+    category: "european", 
+    price: 85.00, 
+    tags: ["direct", "delays"],
+    airline: { name: "EasyJet", country: "UK" } 
+  },
+  { 
+    id: 4, 
+    name: "Porto - Barcelona", 
+    category: "iberian", 
+    price: 30.00, 
+    tags: ["low-cost", "direct"],
+    airline: { name: "Vueling", country: "ES" } 
+  },
+  { 
+    id: 5, 
+    name: "Paris - Tokyo", 
+    category: "intercontinental", 
+    price: 850.50, 
+    tags: ["long-haul", "direct", "premium"],
+    airline: { name: "Air France", country: "FR" } 
+  },
+  { 
+    id: 6, 
+    name: "Santiago - Porto", 
+    category: "iberian", 
+    price: 15.99, 
+    tags: ["low-cost", "early-bird"],
+    airline: { name: "Ryanair", country: "IE" } 
+  },
+  { 
+    id: 7, 
+    name: "London - Dubai", 
+    category: "intercontinental", 
+    price: 600.00, 
+    tags: ["luxury", "layover", "checked-bag"],
+    airline: { name: "Emirates", country: "AE" } 
+  },
+  { 
+    id: 8, 
+    name: "Lisbon - Rome", 
+    category: "european", 
+    price: 120.25, 
+    tags: ["direct", "tourist"],
+    airline: { name: "TAP Portugal", country: "PT" } 
+  }
+];

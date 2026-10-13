@@ -1,0 +1,57 @@
+{
+  "count": 8,
+  "total": 2197.24,
+  "categories": [
+    "european",
+    "iberian",
+    "intercontinental",
+    "transatlantic"
+  ],
+  "top3": [
+    {
+      "id": 5,
+      "name": "Paris - Tokyo",
+      "category": "intercontinental",
+      "price": 850.5,
+      "tags": [
+        "long-haul",
+        "direct",
+        "premium"
+      ],
+      "airline": {
+        "name": "Air France",
+        "country": "FR"
+      }
+    },
+    {
+      "id": 7,
+      "name": "London - Dubai",
+      "category": "intercontinental",
+      "price": 600,
+      "tags": [
+        "luxury",
+        "layover",
+        "checked-bag"
+      ],
+      "airline": {
+        "name": "Emirates",
+        "country": "AE"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Madrid - New York",
+      "category": "transatlantic",
+      "price": 450,
+      "tags": [
+        "long-haul",
+        "meals-included",
+        "layover"
+      ],
+      "airline": {
+        "name": "Iberia",
+        "country": "ES"
+      }
+    }
+  ]
+}

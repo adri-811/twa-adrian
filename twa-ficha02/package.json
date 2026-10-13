@@ -1,12 +1,13 @@
 {
   "name": "twa-ficha02",
   "version": "1.0.0",
-  "description": "TWA Ficha 02 — catalog module (pure functions, ES modules)",
+  "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "check": "node check.js",
-    "report": "node app.js report"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
   "license": "ISC"
 }
